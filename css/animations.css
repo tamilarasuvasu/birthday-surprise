@@ -1,0 +1,13 @@
+@keyframes twinkle { from { opacity: .22; transform: scale(.82); } to { opacity: var(--opacity, .65); transform: scale(1.15); } }
+@keyframes drift-up { 0% { opacity: 0; transform: translate3d(0, 0, 0) rotate(-12deg); } 12% { opacity: .48; } 80% { opacity: .3; } 100% { opacity: 0; transform: translate3d(24px, -110vh, 0) rotate(22deg); } }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+@keyframes heart-beat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.12); } 30% { transform: scale(1); } 45% { transform: scale(1.08); } }
+@keyframes reveal-up { to { opacity: 1; transform: translateY(0); } }
+@keyframes loading { 0% { transform: translateX(-120%); } 100% { transform: translateX(240%); } }
+@keyframes flame-flicker { from { transform: rotate(-7deg) scale(.94); } to { transform: rotate(7deg) scale(1.08); } }
+@keyframes cake-shake { 0%, 100% { transform: translateX(0) rotate(0); } 25% { transform: translateX(-5px) rotate(-1deg); } 75% { transform: translateX(5px) rotate(1deg); } }
+@keyframes heart-float { from { transform: translateY(5px) rotate(-8deg); } to { transform: translateY(-9px) rotate(9deg); } }
+@keyframes dot-pulse { 50% { opacity: .42; } }
+@keyframes confetti-fall { to { transform: translate3d(var(--drift), 105vh, 0) rotate(var(--spin)); opacity: .88; } }
+@keyframes sparkle-pop { 0% { opacity: 0; transform: translate(-50%, -50%) scale(.2); } 25% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, -50%) scale(1.7); } }
+@keyframes knife-slice { 0% { opacity: 0; transform: translate(40px, -24px) rotate(-35deg); } 16% { opacity: 1; } 72% { opacity: 1; transform: translate(-95px, 17px) rotate(-35deg); } 100% { opacity: 0; transform: translate(-115px, 36px) rotate(-35deg); } }

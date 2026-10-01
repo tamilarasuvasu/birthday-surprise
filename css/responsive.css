@@ -1,0 +1,41 @@
+@media (min-width: 900px) {
+  .experience { padding-top: 88px; padding-bottom: 68px; }
+  .step { padding-top: 42px; padding-bottom: 58px; }
+  .step--playlist { padding-top: 20px; }
+}
+
+@media (max-width: 600px) {
+  .topbar { padding: 17px 15px; }
+  .wordmark { gap: 7px; font-size: 8px; letter-spacing: .1em; }
+  .chapter { max-width: 112px; font-size: 7px; letter-spacing: .12em; }
+  .sound-toggle { min-width: 34px; width: 34px; height: 31px; padding: 0; }
+  .sound-toggle__label { display: none; }
+  .experience { min-height: 100svh; padding: 75px 18px 59px; }
+  .step { padding: 27px 0 49px; }
+  .mystery-mark { height: 85px; }
+  .soft-copy { max-width: 310px; font-size: 12px; }
+  .birthday-message { max-width: 370px; font-size: 11px; line-height: 1.7; }
+  .cake-scene { transform: scale(.9); transform-origin: center bottom; margin-bottom: -8px; }
+  .song-list { grid-template-columns: 1fr; gap: 7px; margin: 17px 0 12px; }
+  .song-card { min-height: 76px; grid-template-columns: 25px 34px 1fr auto; grid-template-rows: 1fr; align-items: center; gap: 6px 8px; padding: 10px 12px; }
+  .song-card__copy h3 { font-size: 14px; }
+  .song-card__copy p { font-size: 9px; }
+  .song-card__status { min-height: 0; margin-top: 3px; }
+  .icon-button { grid-column: 4; grid-row: 1; justify-self: end; padding: 10px 0 10px 8px; }
+  .player { padding: 13px 12px 9px; }
+  .player__top { gap: 6px; }
+  .player__title { max-width: 175px; overflow: hidden; font-size: 13px; text-overflow: ellipsis; white-space: nowrap; }
+  .player__transport { gap: 4px; }
+  .final-line { margin: 8px auto; }
+  .final-quote { font-size: 13px; }
+}
+
+@media (max-width: 360px) {
+  .experience { padding-right: 14px; padding-left: 14px; }
+  .step { padding-top: 22px; }
+  .birthday-heading { font-size: 22px; }
+  .cake-scene { transform: scale(.82); margin-top: -9px; margin-bottom: -16px; }
+  .player__timeline { gap: 5px; }
+  .transport-button { width: 27px; }
+  .transport-button--main { width: 33px; }
+}
